@@ -7,4 +7,4 @@ phpCAS::forceAuthentication();
 
 $user = phpCAS::getUser();
 
-var_dump($user);
+echo "Connecté en tant que $user.";
